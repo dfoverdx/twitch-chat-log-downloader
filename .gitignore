@@ -1,3 +1,4 @@
 node_modules
 *.csv
-config.json
+.vscode
+*.code-workspace

@@ -1,0 +1,24 @@
+{
+  "name": "twitch-chat-log-downloader",
+  "version": "0.1.0",
+  "description": "Downloads the twitch chat log from a VOD and outputs to csv",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js -v"
+  },
+  "author": "Haley Hitch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfoverdx/twitch-chat-log-downloader.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/moment": "^2.13.0",
+    "esm": "^3.2.25"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "moment": "^2.24.0"
+  }
+}
